@@ -1,0 +1,128 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .header h1 {
+    color: #e83e8c;
+    font-size: 2rem;
+  }
+  
+  .header span {
+    font-weight: bold;
+  }
+  
+  /* Pricing Container */
+  .pricing-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border: 2px solid #e83e8c;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .unit-option {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .unit-option.popular {
+    border-color: #e83e8c;
+    background-color: #ffe6f0;
+  }
+  
+  .unit-option input {
+    margin-right: 10px;
+  }
+  
+  .unit-title {
+    font-weight: bold;
+  }
+  
+  .discount {
+    background: #ff5252;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 0.8rem;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .most-popular {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ff5252;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 5px 8px;
+    border-radius: 5px;
+  }
+  
+  .customize {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+  
+  .customize select {
+    margin-left: 5px;
+    padding: 2px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .total {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #e83e8c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #d7357a;
+  }
+  
